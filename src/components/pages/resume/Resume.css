@@ -1,0 +1,105 @@
+.resume {
+  width: 35vw;
+  height: 85vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0093e9;
+  background-image: linear-gradient(
+    160deg,
+    #1574ac 0%,
+    #caf3ef 50%,
+    #4eabdf 100%
+  );
+  border-radius: 5px;
+}
+.resume_box {
+  width: 90%;
+  height: 90%;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 0 3%;
+}
+.box_down {
+  width: 90%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.box_download {
+  width: 40%;
+  height: 5%;
+  background-color: lightsalmon;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.box_resume {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box_graphic,
+.box_master,
+.box_work,
+.box_oasis,
+.box_dups,
+.box_black {
+  padding: 2% 2%;
+  justify-content: center;
+  text-align: center;
+  border: 5px double brown;
+  border-radius: 10px;
+}
+
+.resume_carousel {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card_testimo {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.gbr_card1,
+.gbr_card2,
+.gbr_card3 {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
+}
+.carousel {
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.title_card {
+  width: 120%;
+  height: auto;
+  background-color: lightgray;
+  text-align: justify;
+  border-radius: 20px;
+  border: 5px solid orange;
+}

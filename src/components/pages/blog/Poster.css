@@ -1,0 +1,18 @@
+.card_poster {
+  width: 25vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_poster .gbr_poster {
+  width: 250px;
+  height: 250px;
+}
+.card_poster2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

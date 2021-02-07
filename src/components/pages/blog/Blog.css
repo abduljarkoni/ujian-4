@@ -1,0 +1,71 @@
+.blog {
+  width: 35vw;
+  height: 85vh;
+  padding: 5% 5%;
+  margin: 0;
+  justify-content: center;
+  align-content: center;
+  background-color: #0093e9;
+  background-image: linear-gradient(
+    160deg,
+    #1574ac 0%,
+    #caf3ef 50%,
+    #4eabdf 100%
+  );
+  border-radius: 5px;
+}
+.scroll_blog {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.container_blog {
+  width: 400px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+  gap: 20px;
+  border-radius: 10px;
+}
+.container_blog div {
+  width: 350px;
+  height: 600px;
+  margin: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: #635663;
+  background-image: linear-gradient(0deg, #635663 0%, #c6e7eb 100%);
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba (0, 0, 0, 0.9);
+}
+
+.container_blog div img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+.box_blog1 button,
+.box_blog2 button,
+.box_blog4 button,
+.box_blog5 button,
+.box_blog3 button {
+  width: 200px;
+  height: 30px;
+  background-color: green;
+  color: white;
+}
+
+.container_blog div p {
+  text-align: justify;
+  justify-content: center;
+}

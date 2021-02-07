@@ -1,0 +1,208 @@
+.skill {
+  width: 35vw;
+  height: 85vh;
+  padding: 5% 5%;
+  margin: 0;
+  justify-content: center;
+  align-content: center;
+  background-color: #0093e9;
+  background-image: linear-gradient(
+    160deg,
+    #1574ac 0%,
+    #caf3ef 50%,
+    #4eabdf 100%
+  );
+  border-radius: 5px;
+}
+.container_skill {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 0;
+}
+.box_persentase1 {
+  height: auto;
+  width: 100%;
+}
+.box_skill {
+  width: 400px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box_skill .box1,
+.box7 {
+  width: 300px;
+  height: 30px;
+  display: flex;
+  padding: 0 10px;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(11, 204, 104, 1) 0%,
+    rgba(0, 255, 201, 1) 92%
+  );
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px 0 0 5px;
+}
+
+.box_skill .box2,
+.box14 {
+  width: 110px;
+  height: 30px;
+  background-color: cornsilk;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box_skill .box3,
+.box9 {
+  width: 600px;
+  height: 30px;
+  color: white;
+  display: flex;
+  padding: 0 10px;
+  background: rgb(27, 33, 30);
+  background: linear-gradient(
+    90deg,
+    rgba(27, 33, 30, 1) 0%,
+    rgba(2, 0, 36, 1) 43%,
+    rgba(126, 148, 143, 1) 100%
+  );
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px 0 0 5px;
+}
+
+.box_skill .box4 {
+  width: 100px;
+  height: 30px;
+  background-color: cornsilk;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box_skill .box5 {
+  width: 600px;
+  height: 30px;
+  color: white;
+  display: flex;
+  padding: 0 10px;
+  background: rgb(235, 21, 21);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 21, 21, 1) 46%,
+    rgba(235, 67, 21, 1) 66%,
+    rgba(217, 180, 91, 0.9136029411764706) 85%
+  );
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px 0 0 5px;
+}
+
+.box_skill .box6,
+.box8,
+.box10 {
+  width: 100px;
+  height: 30px;
+  background-color: cornsilk;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box_skill .box7 {
+  width: 600px;
+  height: 30px;
+  display: flex;
+  padding: 0 10px;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(11, 204, 104, 1) 0%,
+    rgba(0, 255, 201, 1) 92%
+  );
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px 0 0 5px;
+}
+
+.box_skill .box11,
+.box17 {
+  width: 200px;
+  height: 30px;
+  color: white;
+  display: flex;
+  padding: 0 10px;
+  background: rgb(235, 21, 21);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 21, 21, 1) 46%,
+    rgba(235, 67, 21, 1) 66%,
+    rgba(217, 180, 91, 0.9136029411764706) 85%
+  );
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px 0 0 5px;
+}
+.box_skill .box12 {
+  width: 300px;
+  height: 30px;
+  background-color: cornsilk;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.box_skill .box13 {
+  width: 400px;
+  height: 30px;
+  color: white;
+  display: flex;
+  padding: 0 10px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(11, 204, 104, 1) 0%,
+    rgba(0, 255, 201, 1) 92%
+  );
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px 0 0 5px;
+}
+.box_skill .box15 {
+  width: 300px;
+  height: 30px;
+  color: white;
+  display: flex;
+  padding: 0 10px;
+  background: rgb(27, 33, 30);
+  background: linear-gradient(
+    90deg,
+    rgba(27, 33, 30, 1) 0%,
+    rgba(2, 0, 36, 1) 43%,
+    rgba(126, 148, 143, 1) 100%
+  );
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px 0 0 5px;
+}
+.box_skill .box16,
+.box18 {
+  width: 300px;
+  height: 30px;
+  background-color: cornsilk;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

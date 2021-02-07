@@ -1,0 +1,37 @@
+.home {
+  width: 35vw;
+  height: 85vh;
+  display: flex;
+  margin: 10px 10px;
+  flex-direction: column;
+  padding: 2% 5%;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f5578;
+  background-image: linear-gradient(
+    160deg,
+    #1f5578 0%,
+    #ffffff 66%,
+    #80d0c7 82%,
+    #ffffff 99%
+  );
+
+  border-radius: 5px;
+}
+.avatar {
+  border-radius: 100px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
+}
+.profile_title1 {
+  font-size: 2rem;
+  color: green;
+}
+.profile_title2 {
+  font-size: 30px;
+  color: brown;
+}
+.profile_title3 {
+  text-align: center;
+  justify-content: center;
+}

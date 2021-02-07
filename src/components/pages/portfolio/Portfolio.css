@@ -1,0 +1,103 @@
+.portfolio {
+  width: 35vw;
+  height: 85vh;
+  padding: 5% 5%;
+  margin: 0;
+  justify-content: center;
+  align-content: center;
+  background-color: #0093e9;
+  background-image: linear-gradient(
+    160deg,
+    #1574ac 0%,
+    #caf3ef 50%,
+    #4eabdf 100%
+  );
+  border-radius: 5px;
+}
+.scroll_portfolio {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+.container_portfolio {
+  width: 400px;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.container_portfolio div {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: wheat;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
+}
+.container_portfolio div:hover {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  color: wheat;
+  transition: 0.8s;
+  border: 10px solid burlywood;
+}
+.card_folio1 {
+  background-image: url(../../cards/img/blog1.jpg);
+  background-size: cover;
+}
+.card_folio2 {
+  background-image: url(../../cards/img/blog2.jpg);
+  background-size: cover;
+}
+.card_folio3 {
+  background-image: url(../../cards/img/blog3.jpg);
+  background-size: cover;
+}
+.card_folio4 {
+  background-image: url(../../cards/img/blog4.jpg);
+  background-size: cover;
+}
+.card_folio5 {
+  background-image: url(../../cards/img/blog5.jpg);
+  background-size: cover;
+}
+.card_folio6 {
+  background-image: url(../../cards/img/team1.jpg);
+  background-size: cover;
+}
+
+.card_folio7 {
+  background-image: url(../../cards/img/team2.jpg);
+  background-size: cover;
+}
+
+.card_folio8 {
+  background-image: url(../../cards/img/team3.jpg);
+  background-size: cover;
+}
+.card_folio9 {
+  background-image: url(../../cards/img/team4.jpg);
+  background-size: cover;
+}
+
+.card_folio10 {
+  background-image: url(../../cards/img/blog1.jpg);
+  background-size: cover;
+}
